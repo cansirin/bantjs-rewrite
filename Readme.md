@@ -1,0 +1,5 @@
+# bant-rewrite
+
+# license
+
+mit
