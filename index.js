@@ -37,9 +37,9 @@ module.exports = function (file, opts) {
         val = mapping[key];
         if (val.charAt(0) === '.')
           val = relative(file, path.join(basedir, val));
-        re = new RegExp('^' + key);
+        re = new RegExp('^' + key + '(?:/.*)?$');
         if (re.test(id)) {
-          n = id.replace(re, val);
+          n = id.replace(key, val);
           debug('replacing ' + id + ' with ' + n + ' in ' + file);
           return n;
         }
