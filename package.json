@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bantjs/rewrite.git"
+    "url": "https://github.com/koding/bantjs-rewrite.git"
   },
   "keywords": [
     "bant",
@@ -28,7 +28,7 @@
   "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bantjs/rewrite/issues"
+    "url": "https://github.com/koding/bantjs-rewrite/issues"
   },
-  "homepage": "https://github.com/bantjs/rewrite"
+  "homepage": "https://github.com/koding/bantjs-rewrite"
 }
